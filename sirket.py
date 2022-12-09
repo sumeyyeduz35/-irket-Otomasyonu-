@@ -63,7 +63,7 @@ class Sirket():
             dosya.write("{}){}-{}-{}-{}-{}\n".format(id,ad,soyad,yas,cinsiyet,maas))
 
     def calisanCikar(self):
-        with open("calisanlar.txt","r") as dosya:
+        with open("calisanlar.txt","r") as dosya:  #Dosyayı okumak için kullanırız
             calisanlar = dosya.readlines()
 
         gCalisanlar = []
