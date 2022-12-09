@@ -55,7 +55,7 @@ class Sirket():
             id = 1
 
         else:
-            with open("calisanlar.txt","r") as dosya:
+            with open("calisanlar.txt","r") as dosya:   #dosyayı okumak için kullanırız
                 id = int(dosya.readlines()[-1].split(")")[0]) + 1
 
 
